@@ -16,3 +16,8 @@ At GEOG 712, we study how to develop reproducible research workflows, and knowle
 crucial to reach this goal. Given this, we are exercising the creation and versioning of a repository on Github as a 
 start.
 
+---
+
+### Exercises
+
+- Week 4 - [Create a list of data that you will be creating and using as part of your project](https://github.com/ricardobarroslourenco/My_First_Repository/blob/main/week4-ProjectDataAnalysis.md)
