@@ -10,7 +10,7 @@ _I intend to use previously acquired data, majorly listed at Sothe et al. (2021)
 [World Soil Information Service(WoSIS)](https://www.isric.org/explore/wosis/accessing-wosis-derived-datasets)_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Other covariates obtained from remote sensing data (ex.: Temperature Estimates; 
-Vegetation Indexes; Precipitation Estimates; Elevation Model; Slope; Band Composites; etc.)_ 
+Vegetation Indexes; Precipitation Estimates; Elevation Model; Slope; Band Composites; etc.)._ 
 
 
 
@@ -25,7 +25,7 @@ subjects, which does not imply on aditional measures in terms of data safety._
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_As I intend to replicate the 
 study in Google Earth Engine(GEE), my initial desire is to keep remote sensing assets on its original collections at GEE, 
-and the WoSIS data pulled directly from their repository. To make clear, the intended usage of Earth Engine involves 
+and the WoSIS data pulled directly from their repository (either to the notebook or to a GEE storage). To make clear, the intended usage of Earth Engine involves 
 using their Python API, rather than the Javascript one. Therefore, all processing will happen with the aid of Jupyter
 notebooks, which will be commited into Github._
 
@@ -41,7 +41,8 @@ GeoJSON format._
   - **Create a File naming convention for your project data**
 
 _Depending on storage choice (GEE vs Document Store Database [ex. MongoDB] vs Filesystem) perhaps it will not be 
-necessary to define a taxonomy for file conventions, but rather a query plan setup, based on spatial indexing._
+necessary to define a taxonomy for file conventions, but rather a query plan setup, based on spatial indexing. This will
+be designed once have more contact with the data._
 
   - **What standards are relevant to your project? List any existing standards or best practices in use in your field 
 or in your lab? This could include instrument procedures or file management standards. What standards might you want 
@@ -49,7 +50,7 @@ to create to help you manage your data?**
 
 _In terms of best practices in the Remote Sensing domain, it is still an evolving field, but is quite common to use sources that are public, and allow 
 API calls such as the ones defined in Ramachandran et al. (2021), with intensive usage of information systems for both 
-storing and processing data, as well as sharing results in platforms that even allow re-running the experiment 
+storing and processing data, as well as sharing results in platforms that even allow re-running the computational experiment 
 (especially when involving expensive HPC facilities)._
 
   - **List possible strategies you might use to document your data throughout your project.**
@@ -57,7 +58,7 @@ storing and processing data, as well as sharing results in platforms that even a
 _I will probably be versioning each step of the experiment using come sort of cloud versioning system such as Github. 
 The essence will be that each step of the experiment gets an individual commit, once a certain result is obtained. If 
 processing the data involves too much intermediate processes, as well as results, each should be broken in intermediate 
-commits, sllowing the project to take multiverses, and explore counterfactuals if necessary._
+commits, allowing the project to take multiverses, and explore counterfactuals if necessary._
 
 ---
 
