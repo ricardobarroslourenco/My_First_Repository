@@ -22,3 +22,4 @@ start.
 
 - Week 4 - [Create a list of data that you will be creating and using as part of your project](https://github.com/ricardobarroslourenco/My_First_Repository/blob/main/week4-ProjectDataAnalysis.md)
 - Week 5 and 6 -  Data in Brief exercise (PDF available [here](https://github.com/ricardobarroslourenco/My_First_Repository/blob/main/DataInBrief/pdfs/Data_In_Brief_v01_Nov02.pdf) - Please [comment on *.Tex File](https://github.com/ricardobarroslourenco/My_First_Repository/blob/main/DataInBrief/dib-template.tex) for Issues)
+- Week 7 - [StockR](https://github.com/ricardobarroslourenco/stockR) package submission
